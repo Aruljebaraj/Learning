@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PackageApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="take_new_order">takeOrder</string>
+    <string name="delivered">deliver</string>
+    <string name="customer_not_available">customernotavailable</string>
+    <string name="enter_email_id">emailId</string>
+    <string name="enter_employee_id">employeeId</string>
+    <string name="enter_password">Password</string>
+    <string name="login">Login</string>
+    <string name="register_new_employee">Register New Employee ?</string>
+    <string name="UrlPrefix">http://dailyfreshapi.cxengine.net/Api/</string>
+    <string name="order_detail">Order Detail</string>
+</resources>
