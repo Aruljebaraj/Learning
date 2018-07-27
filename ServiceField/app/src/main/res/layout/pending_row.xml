@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background=""/>-->
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/CardViewPendingReportDetails"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:elevation="3dp"
+        android:padding="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/ImgStatus"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:padding="10dp"
+                android:src="@drawable/actioned" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.65"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/TxtCustomerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_weight="0.5"
+                    android:gravity="bottom"
+                    android:paddingLeft="5dp"
+                    android:text="Riyaz Shaikh"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/TxtStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="start"
+                    android:paddingLeft="5dp"
+                    android:text="Actioned"
+                    android:textAllCaps="true"
+                    android:textAppearance="?android:textAppearanceSmall" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ImgActions"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:gravity="end"
+                android:src="@drawable/arrow_angled_forward" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

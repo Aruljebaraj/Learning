@@ -1,0 +1,52 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--<dimen name="fab_margin">16dp</dimen>-->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="pointing_arrow_size">3dp</dimen>
+
+
+    <!-- If we remove the page indicator, then the calculated height should be
+     296dp for the 24 hour grid, and 304dp for the 12 hour grid. We'd just use 304dp. -->
+    <!-- initially 270dp -->
+
+    <!--270dp: (6 rows) * (32dp row height) + (50dp month_list_item_header_height) + (28dp ???) -->
+    <!--318dp: (6 rows) * (40dp row height) + (50dp month header size) + (28dp ???) -->
+    <!--324dp: (6 rows) * (40dp row height) + (30dp month_list_item_header_height_no_title)
+             + (6dp month_view_top_padding) + (48dp month_navigation_bar_height).
+    A selection on a day in the sixth row will be *slightly* cut off.
+    You can add 16dp to this amount to ensure the entire circle is shown.
+    However, you risk making the dialog too tall. -->
+
+    <!--My stuff-->
+
+    <!-- NumberPadTimePickerDialog -->
+    <!-- 4 * (numeric_keypad_cell_height) + 88dp pre-21 FAB height -->
+    <!-- Same as pre-21 FAB height -->
+    <dimen name="fab_margin">0dp</dimen> <!-- 88dp height already big enough -->
+
+    <!-- GridTimePickerDialog -->
+    <dimen name="ms__padding_left">24dp</dimen>
+    <dimen name="ms__padding_top">12dp</dimen>
+    <dimen name="ms__item_height">48dp</dimen>
+    <dimen name="ms__popup_padding_left">24dp</dimen>
+    <dimen name="ms__popup_padding_top">12dp</dimen>
+    <!-- Bottom sheet specs -->
+    <!-- If the total height of the contents of a bottom sheet does not exceed this limit,
+    then the sheet will show fully expanded; the contents are not stretched to match this height.
+    This is large enough to accommodate most, if not all, of our layouts. -->
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_double">16dp</dimen>
+    <dimen name="spacing_huge">72dp</dimen>
+
+
+    <dimen name="elevation_header">4dp</dimen>
+    <dimen name="elevation_fab">8dp</dimen>
+
+    <dimen name="size_icon_toolbar">40dp</dimen>
+
+    <integer name="anim_duration_very_long">1500</integer>
+    <integer name="anim_duration_medium">300</integer>
+</resources>

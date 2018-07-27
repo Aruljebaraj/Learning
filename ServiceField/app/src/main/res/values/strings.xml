@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ServiceFieldTrack</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="today_s_pending_cases">Today\'s Pending Cases</string>
+    <string name="no_pending_cases">No Pending Cases !!</string>
+    <string name="nothing_closed_yet">Nothing Closed Yet</string>
+    <string name="today_s_closed_cases">Today\'s Closed Cases</string>
+    <string name="pending_cases">Pending Cases</string>
+    <string name="closed_cases">Closed Cases</string>
+    <string name="submit_referal">Submit</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="enter_your_comment_optional">Enter Your Comment (optional)</string>
+    <string name="enter_Customer_contact_information">Enter contact information</string>
+    <string name="Customer">Customer Name</string>
+    <string name="select_city">Select City</string>
+    <string name="select_Language">Select Language</string>
+    <string name="select_Lead">Select Lead Source</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="enter_country">Enter Country</string>
+    <string name="enter_state">Enter State</string>
+    <string name="enter_zipcode">Enter Zipcode</string>
+    <string name="referral_change_log">Referral Change Log:</string>
+    <string name="no_logs_available">No logs available</string>
+</resources>

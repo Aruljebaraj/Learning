@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kiosk</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="Url">Http://192.168.2.11:861/api/Values/</string>-->
+    <string name="Url">Http://dailyfreshapi.cxengine.net/api/Values/</string>
+    <!--<string name="Url">Http://47.88.175.179:834/api/Values/</string>-->
+    <string name="BranchId">1</string>
+</resources>
